@@ -1,13 +1,20 @@
-body{
-    background-color: black;
+*{
+    margin : 0; 
+    padding : 0; 
+    box-sizing: border-box;
 }
-img {
+
+body {
+    background-color: rgb(26, 3, 53) !important;
+}
+
+.birthdaygirl .wishmessage img {
     width: 80px;
     height: 80px;
     transition: width 2s, height 4s;
 }
 
-img:hover {
+   .birthdaygirl .wishmessage img:hover {
     width: 200px;
     height: 200px;
 }
@@ -16,9 +23,10 @@ img:hover {
     align-items: center;
     text-align: center;
     display: flex;
-  
-    
+
+
 }
+
 .wishmessage {
     margin-left: 10px;
 }
@@ -32,11 +40,13 @@ img:hover {
     }
 
     .birthdaygirl {
-       
+
         overflow-x: scroll;
         margin-left: 30px;
-       
+        max-width: 83%;
+
     }
+
     .wishmessage {
         margin-left: 10px;
         box-shadow: 3px 20px 50px 9px #66326b;
@@ -46,20 +56,22 @@ img:hover {
         width: 100%;
         height: 232px;
         position: relative;
+        margin-top: -5px;
     }
- 
-    .hjbb{
+
+    .hjbb {
         position: absolute;
         z-index: 10;
     }
+
     .birthdayMessage {
         position: absolute;
         z-index: 10;
         top: 147px;
-        left: 14%;
+        left: 11%;
         font-family: cursive;
-        font-size: 22px;
-        color: burlywood;
+        font-size: 24px;
+        color: rgb(252, 252, 252);
     }
 
     video {
@@ -68,58 +80,115 @@ img:hover {
         left: 0;
         min-width: 100%;
         min-height: 100%;
-        z-index: -1; /* Ensure the video stays behind other content */
+        z-index: -1;
+        /* Ensure the video stays behind other content */
     }
-    
+
     /* Style other content as needed */
     .content {
         position: relative;
-        z-index: 1; /* Ensure the content stays above the video */
+        z-index: 1;
+        /* Ensure the content stays above the video */
     }
 
 
     .image-container {
         position: relative;
-        width: 300px; /* Adjust this width as needed */
+        width: 300px;
+        /* Adjust this width as needed */
         height: 300px;
     }
-    .balloon
-    {
-     display: flex;/* Adjust this height as needed */
+
+    .balloon {
+        display: flex;
+        /* Adjust this height as needed */
     }
+
     .floating-image {
-        position: absolute;
+        margin-top: 38px;
+        margin-left: 15px;
         top: 0;
         left: 0;
-        animation: floatAnimation 4s ease-in-out infinite alternate;
+        animation: floatAnimation 4s ease-in-out infinite ;
     }
 
     @keyframes floatAnimation {
         0% {
             transform: translateY(0);
         }
+
         100% {
             transform: translateY(-100px);
-            opacity: 0; /* Adjust this value for desired floating height */
+            opacity: 0;
+            /* Adjust this value for desired floating height */
         }
     }
-/* Define keyframes for the glowing effect */
-@keyframes glow {
-    0% {
-      text-shadow: 0 0 3px #fff, 0 0 4px #fff, 0 0 5px #fff, 0 0 6px #ff00de, 0 0 7px #ff00de, 0 0 8px #ff00de, 0 0 9px #ff00de, 0 0 10px #ff00de;
-    }
-    50% {
-        text-shadow: none;
-    }
-    100% {
-        text-shadow: 0 0 3px #fff, 0 0 4px #fff, 0 0 5px #fff, 0 0 6px #ff00de, 0 0 7px #ff00de, 0 0 8px #ff00de, 0 0 9px #ff00de, 0 0 10px #ff00de;
-    }
-}
 
-/* Apply the animation to the text */
-.birthdayMessage {
-    animation: glow 10s infinite;
-    color: transparent; /* Hide the original text color */
-}
+    /* Define keyframes for the glowing effect */
+    @keyframes glow {
+        0% {
+            text-shadow: 0 0 3px #fff, 0 0 4px #fff, 0 0 5px #fff, 0 0 6px #ff00de, 0 0 7px #ff00de, 0 0 8px #ff00de, 0 0 9px #ff00de, 0 0 10px #ff00de;
+        }
 
+        50% {
+            text-shadow: none;
+        }
+
+        100% {
+            text-shadow: 0 0 3px #fff, 0 0 4px #fff, 0 0 5px #fff, 0 0 6px #ff00de, 0 0 7px #ff00de, 0 0 8px #ff00de, 0 0 9px #ff00de, 0 0 10px #ff00de;
+        }
+    }
+
+    /* Apply the animation to the text */
+    .birthdayMessage {
+        animation: glow 10s infinite;
+        color: transparent;
+        /* Hide the original text color */
+    }
+    .clickbutton{
+        text-align: center;
+        color: white;
+    }
+
+    p.beauty {
+        font-size: 35px;
+        color: #fb6531;
+        text-shadow: 4px 1px 7px white;
+    }
+
+    button.clickme {
+        border-radius: 18px;
+        margin-top: 40px;
+        width: 120px;
+        height: 35px;
+        font-size: 18px;
+        background-color: black;
+        border: 3px solid;
+        box-shadow: 2px 2px 66px 3px red;
+        color: white;
+    }
+    .tarif  {
+        color: white;
+        font-size: 27px;
+        padding: 6px;
+        text-align: center;
+        margin-top: 70px;
+        border: 2px solid white;
+        background-color: #e67d7d70;
+    }
+
+    a.Next {
+        font-size: 19px;
+        border-radius: 5px;
+        margin: 37%;
+        font-family: cursive;
+        box-shadow: 2px 2px 66px 7px #af5d5d;
+        color: #872b2b;
+        background-color: floralwhite;
+        border: 2px solid floralwhite;
+        padding: 4px;
+    }
+    .nextpagediv {
+        margin-top: 30%;
+    }
 }
