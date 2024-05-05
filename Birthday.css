@@ -32,6 +32,11 @@ body {
 }
 
 @media(max-width: 650px) {
+
+
+    body{
+        overflow-x: hidden;
+    }
     img {
         /* Adjust the width and height as needed for smaller screens */
         width: 50px;
