@@ -242,7 +242,7 @@ body {
     }
     .cake_image_div {
         text-align: center;
-        
+        margin-top: 10%;
     }
     .candle_hidden {
         width: 64%;
@@ -285,7 +285,7 @@ body {
         border-right: 25px solid transparent;
         border-bottom: 50px solid #020304;
         margin-top: 199px;
-        margin-left: 182px;
+        margin-left: 168px;
         z-index: 1;
     }
     .Wishh4 {
