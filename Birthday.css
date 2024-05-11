@@ -242,7 +242,7 @@ body {
     }
     .cake_image_div {
         text-align: center;
-        margin-top: 10%;
+        
     }
     .candle_hidden {
         width: 64%;
@@ -262,6 +262,10 @@ body {
     h3.candle_title {
         color: wheat;
     }
+    .cakecut_title
+    {
+        color: wheat; 
+    }
     .back_page {
         margin: 44px;
     }
@@ -271,5 +275,22 @@ body {
         border-radius: 12px;
         font-size: 17px;
         box-shadow: 0px 3px 30px 3px #007bff;
+    }
+
+    .cut_cake {
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-bottom: 50px solid #020304;
+        margin-top: 199px;
+        margin-left: 182px;
+        z-index: 1;
+    }
+    .Wishh4 {
+        text-align: center;
+        color: bisque;
+        margin-top: 10px;
     }
 }
