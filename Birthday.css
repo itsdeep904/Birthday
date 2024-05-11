@@ -7,6 +7,10 @@
 body {
     background-color: rgb(26, 3, 53) !important;
 }
+.cake_image_div {
+    text-align: center;
+    margin-top: 20%;
+}
 
 .birthdaygirl .wishmessage img {
     width: 80px;
@@ -242,7 +246,7 @@ body {
     }
     .cake_image_div {
         text-align: center;
-        margin-top: 10%;
+        margin-top: 20%;
     }
     .candle_hidden {
         width: 64%;
