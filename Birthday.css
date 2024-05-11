@@ -196,4 +196,70 @@ body {
     .nextpagediv {
         margin-top: 30%;
     }
+
+    /* -------2nd page----------------- */
+
+    audio {
+        box-shadow: 1px 7px 68px red;
+        border-radius: 35px;
+        margin-top: 60px;
+        margin-left: 42px;
+    }
+
+    .musicpermission {
+        text-align: center;
+        color: #ffda44;
+        margin-top: 55px;
+        font-size: 30px;
+        text-shadow: 2px 1px 6px pink;
+    }
+
+    a.btn.btn-sm {
+        font-size: 14px;
+        border-radius: 10px;
+        border: 2px solid #ffb2b2;
+        background: #7c3b3b;
+        width: 100px;
+    }
+    p.music_message {
+        text-align: center;
+        color: #fbc7c7;
+        margin-top: 60px;
+        font-size: 36px;
+        font-weight: 500;
+    }
+    .message_content {
+        margin-top: 50px;
+        color: bisque;
+        text-align: center;
+        background-color: coral;
+        padding: 5px;
+    }
+    img.cake_img {
+        width: 250px;
+        height: 250px;
+        filter: drop-shadow(2px 4px 9px black);
+    }
+    .cake_image_div {
+        text-align: center;
+        margin-top: 10%;
+    }
+    .candle_hidden {
+        width: 64%;
+        height: 50px;
+        background-color: rgb(26, 3, 53);
+        margin-top: 29px;
+        position: absolute;
+        margin-left: 69px;
+        z-index: 1;
+    }
+    .message_cake {
+        color: white;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    h3.candle_title {
+        color: wheat;
+    }
 }
